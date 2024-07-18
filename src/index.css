@@ -130,3 +130,13 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+@media (max-width: 700px) {
+  html {
+    font-size: 35%;
+  }
+  .add-form {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
